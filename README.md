@@ -26,6 +26,7 @@ It does the same as vROCS, however in a more efficient manner, since it runs in 
 * Besides AUC values, we provide the optimal threshold in a given ROC curve, which is calculated following https://en.wikipedia.org/wiki/Youden%27s_J_statistic
 * RocsValidRoc must be used with databases previously prepared by OMEGA conformer generation.
 * Also, it is compatible to be used after a regular ROCS run (for this, try ´Build single OR multi query ROC curve from ROCS results´). However, RocsValidRoc already comes with ROCS function implemented. ** Just remember, if you use ROCS separetely/previous to RocsValidRoc, name your OMEGA processed databases with terms ´active´ and ´decoys´ and then you may proceed to run RocsValidRoc
+* note: this script was developed by me for personal purposes, especially to practice python skills, and it does not have link to OpenEye.
               
 > Author: Guilherme M. Silva (silvagm@usp.br)
 > <br />*adapted from https://github.com/lbfederico/OpenEye/tree/main/RocsEon_Run by Leonardo B. Federico
