@@ -9,7 +9,7 @@ It does the same as vROCS, however in a more efficient manner, since it runs in 
 <br />Furthermore, it is very useful if you only wish to use several databases for a given query(ies) in a ROCS VS campaign. You will not have to type every single code line to run ROCS, for each database, as it is usually required in traditional procedure (for this, try ´Run only ROCS´).
               
 # What do you need? #
-* OpenEye applications installed and regularly working in your machine (including, obviously, ROCS), with appropriate OpenEye valid license (see https://docs.eyesopen.com/ for more info) \n
+* OpenEye applications installed and regularly working in your machine (including, obviously, ROCS), with appropriate OpenEye valid license (see https://docs.eyesopen.com/ for more info) 
 * Python modules: subprocess, shutil, os, sys, smtplib, pandas,  matplotlib, numpy, time, fnmatch, datetime, scikit-learn. In general, they all can be easily installed by typing pip install.
              
 # Place in folder: #
@@ -25,8 +25,8 @@ It does the same as vROCS, however in a more efficient manner, since it runs in 
 * RocsValidRoc will create a sub-directory that you set as your project name at your current working directory, and it´ll send all results there. In addition, it will generate time.txt file with start/end of ROCS run, plus output_rocsvalidroc.txt with all that you wanna know about your built ROC curves.
 * Besides AUC values, we provide the optimal threshold in a given ROC curve, which is calculated following https://en.wikipedia.org/wiki/Youden%27s_J_statistic
 * RocsValidRoc must be used with databases previously prepared by OMEGA conformer generation.
-* Also, it is compatible to be used after a regular ROCS run (for this, try ´Build single OR multi query ROC curve from ROCS results´). However, RocsValidRoc already comes with ROCS function implemented. ** Just remember, if you use ROCS separetely/previous to RocsValidRoc, name your OMEGA processed databases with terms ´active´ and ´decoys´ and then you may proceed to run RocsValidRoc
-* note: this script was developed by me for personal purposes, especially to practice python skills, and it does not have link to OpenEye.
+* Also, it is compatible to be used after a regular ROCS run (for this, try ´Build single OR multi query ROC curve from ROCS results´). However, RocsValidRoc already comes with ROCS function implemented. ** Just remember, if you use ROCS separetely/previous to RocsValidRoc, name your OMEGA processed databases with terms ´actives´ and ´decoys´ and then you may proceed to run RocsValidRoc **
+* note: this script was developed by me for personal purposes (especially to practice python skills) and it does not have a link to OpenEye.
               
 > Author: Guilherme M. Silva (silvagm@usp.br)
 > <br />*adapted from https://github.com/lbfederico/OpenEye/tree/main/RocsEon_Run by Leonardo B. Federico
