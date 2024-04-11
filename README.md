@@ -1,9 +1,9 @@
 # RocsValidRoc
-Automatic and interactive way to perform retrospective ROC curve validation for ROCS.
+Automatic and interactive way to perform retrospective validation of ROCS queries through ROC curve analysis.
 
 # What does this script do? #
  RocsValidRoc fully automatize in an interactive way the validation procedure of using one (or various) molecule(s) as query(ies) in 3D shape overlaping (similarity search) using ROCS, within databases of known actives and decoys. For this, it automatically builds ROC curve(s) allowing you to check its metrics and to assess your query(ies) performance in ROCS.
-<br />  It does the same as vROCS, but in command line (not in GUI). It also allows to set the desired number of threads in MPI flag (mpi_np). In addition, it automatically generates merged ROC curves to simultaneously validate multi-queries in ROCS.
+<br />  It does the same as vROCS, but in command line (not in GUI). It also allows to set the desired number of threads in MPI flag (mpi_np). In particular, it automatically generates merged ROC curves to simultaneously validate multi-queries in ROCS.
 <br />  Furthermore, it is very useful if you only wish to use several databases for a given query(ies) in a ROCS VS campaign. You will not have to type every single code line to run ROCS, for each database, as it is usually required in traditional procedure (for this, try ´Run only ROCS´).
               
 # What do you need? #
